@@ -1,0 +1,17 @@
+.contact { /*
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e6bd43;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+  }
+  
+  
+  .contact:hover {
+    background-color: #252525;
+  }
+
+  
+  
