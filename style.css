@@ -10,6 +10,21 @@
   }
 
 
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+
+i {
+    font-size: 24px; 
+    margin: 10px; 
+}
+
+p{
+    padding-bottom: 3rem;
+}
+
   
   header{
     grid-area: header;
@@ -114,6 +129,7 @@ button {
 article p {
     text-align: center; 
     margin-bottom: 2rem;
+    padding: 20px;
 }
 
 
@@ -123,8 +139,8 @@ article p {
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
-    border-radius: 5px;
     display: inline-block;
+    border: 2px solid #000;
 }
 
 .company{
@@ -145,25 +161,6 @@ article p {
 }
 
 
-.yellow-box {
-    background-color: yellow;
-    text-align: center;
-    position: relative;
-    height: 300px; 
-}
-
-.image-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; 
-}
 
 
 section img{    
@@ -194,5 +191,28 @@ section img{
   }
 
   .søkefelt{
-    background-color:gainsboro
+    background-color:gainsboro;
+    height: 9rem;
+    padding-top: 1rem;
   }
+
+  .logof{
+    background-color: #252525;
+    height: 8rem;
+  }
+
+  .logof img {
+    width: 90px; 
+    height: auto; 
+    padding-top: 1rem;
+}
+
+.toppen{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    bottom: 40px;
+    right: 50px;
+    color: white;
+}
